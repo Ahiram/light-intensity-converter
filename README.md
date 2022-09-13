@@ -37,7 +37,7 @@ $$\frac{S(\lambda)}{\int S(\lambda)d\lambda}$$
 
 ---
 
-視物質の感度をスペクトルを最大値が1になるように正規化したものを $S_{opsin}(\lambda)$ とする。これに $FS(\lambda)$ をかけることで視物質に対して有効に働く刺激光波長あたりの光量子密度が得られる。これを $S_{Act}(\lambda)$ とする。一つの光受容体の一秒間の光異性化の数 $R_{iso}$ を考えるためには、光受容体がこの光をどの程度受けるかについて考える必要がある。光受容体が光異性化を引き起こす光を受ける面積を $A_{c}$ とおくと、$$R_{iso}=A_{c}\int S_{Act}(\lambda)d\lambda$$となる。つまり $R(\lambda)$ と $I$ と $R_{iso}$ の関係は $$R_{iso}=IA_{c}\int\frac{S(\lambda)S_{opsin}(\lambda)}{\int S(\lambda)\epsilon(\lambda)d\lambda}d\lambda$$ となる。これで刺激光の強度を光異性化の数によって定義することができた。さらに放射照度とスペクトルが独立であると仮定すると $R_{iso}$ は $I$ の関数としてかける。変換係数 $i_{conv}$ を $$i_{conv}=A_{c}\int\frac{S(\lambda)S_{opsin}(\lambda)}{\int S(\lambda)\epsilon(\lambda)d\lambda}d\lambda$$ とすると $$R_{iso}(I)=i_{conv}I$$ となる。こうするとスペクトルのデータをもとに任意の $R_{iso}$ を与える放射照度 $I$ を推定できる。
+視物質の感度をスペクトルを最大値が1になるように正規化したものを $S_{opsin}(\lambda)$ とする。これに $FS(\lambda)$ をかけることで視物質に対して有効に働く刺激光波長あたりの光量子密度が得られる。これを $S_{Act}(\lambda)$ とする。一つの光受容体の一秒間の光異性化の数 $R_{iso}$ を考えるためには、光受容体がこの光をどの程度受けるかについて考える必要がある。光受容体が光異性化を引き起こす光を受ける面積を $A_{c}$ とおくと、　$$R_{iso}=A_{c}\int S_{Act}(\lambda)d\lambda$$　となる。つまり $R(\lambda)$ と $I$ と $R_{iso}$ の関係は $$R_{iso}=IA_{c}\int\frac{S(\lambda)S_{opsin}(\lambda)}{\int S(\lambda)\epsilon(\lambda)d\lambda}d\lambda$$ となる。これで刺激光の強度を光異性化の数によって定義することができた。さらに放射照度とスペクトルが独立であると仮定すると $R_{iso}$ は $I$ の関数としてかける。変換係数 $i_{conv}$ を $$i_{conv}=A_{c}\int\frac{S(\lambda)S_{opsin}(\lambda)}{\int S(\lambda)\epsilon(\lambda)d\lambda}d\lambda$$ とすると $$R_{iso}(I)=i_{conv}I$$ となる。こうするとスペクトルのデータをもとに任意の $R_{iso}$ を与える放射照度 $I$ を推定できる。
 
 
 ---
